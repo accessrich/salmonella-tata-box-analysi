@@ -1,0 +1,14 @@
+# Raw data and large files
+TATA_locate_results.txt
+seqdump_aligned.fasta
+seqdump_cleaned.fasta
+raw_reads/
+clean/
+
+# Temporary analysis files
+*_temp.txt
+*.log
+.DS_Store
+.Rhistory
+*.Rdata
+*.RData

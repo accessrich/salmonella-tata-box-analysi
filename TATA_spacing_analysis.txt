@@ -1,0 +1,6 @@
+Metric	Value
+Total_Measurements	1088799
+Mean_Spacing_bp	441.51
+Median_Spacing_bp	219.00
+Min_Spacing_bp	2
+Max_Spacing_bp	8911

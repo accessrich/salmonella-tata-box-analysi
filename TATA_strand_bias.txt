@@ -1,0 +1,3 @@
+Strand	Count	Percentage
++	1088899	50.00%
+-	1088899	50.00%

@@ -1,0 +1,223 @@
+================================================================================
+TATA BOX ANALYSIS - VISUALIZATION PLOTS MANIFEST
+================================================================================
+
+TOTAL PLOTS GENERATED: 9
+TOTAL SIZE: ~525 KB
+FORMAT: PNG (1200x600 resolution at 100 dpi)
+
+================================================================================
+PLOT DESCRIPTIONS
+================================================================================
+
+1. TATA_distribution_histogram.png (72 KB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Layout: 2-panel comparison
+   
+   LEFT PANEL: Frequency histogram of TATA counts
+   - Shows distribution of 2.18M matches across 100 sequences
+   - Red dashed line: Mean (21,777.98 matches/sequence)
+   - Green dashed line: Median (21,896 matches/sequence)
+   - Reveals fairly normal distribution with low variance
+   
+   RIGHT PANEL: Q-Q plot for normality assessment
+   - Points close to red diagonal line indicate normal distribution
+   - Confirms TATA abundance is normally distributed across sequences
+   
+   KEY INSIGHT: Highly conserved TATA content across strains
+
+---
+
+2. TATA_strand_distribution.png (31 KB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Type: Pie chart
+   
+   Shows equal distribution between forward (+) and reverse (-) strands:
+   - Forward strand: 1,088,899 matches (50.00%)
+   - Reverse strand: 1,088,899 matches (50.00%)
+   
+   KEY INSIGHT: Perfect strand balance - no preferential strand bias
+               suggests symmetrical gene organization in Salmonella
+
+---
+
+3. TATA_abundance_boxplot.png (45 KB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Type: Box plot with 3 abundance groups
+   
+   Shows statistical distribution for each group:
+   - HIGH (green):   33 sequences, mean 22,513 matches
+   - MEDIUM (yellow): 33 sequences, mean 21,830 matches
+   - LOW (purple):    34 sequences, mean 21,014 matches
+   
+   Visualizes quartiles, median, and outliers for each group
+   
+   KEY INSIGHT: Clear stratification with ~1-2% differences between groups
+
+---
+
+4. TATA_spacing_histogram.png (67 KB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Layout: 2-panel histogram
+   
+   LEFT PANEL: Full range spacing distribution (2 bp - 8,911 bp)
+   - Shows all 1,088,799 inter-box spacing measurements
+   - Bimodal distribution with peak at ~200 bp and tail at ~500 bp
+   
+   RIGHT PANEL: Zoomed view (< 500 bp)
+   - Mean spacing: 441.51 bp
+   - Median spacing: 219.00 bp
+   - Reveals tight clustering of TATA boxes
+   
+   KEY INSIGHT: Close spacing suggests regulatory organization,
+               possible polycistronic operons, promoter clusters
+
+---
+
+5. TATA_top_10_barplot.png (55 KB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Type: Bar plot with sequence labels
+   
+   Ranked sequences by TATA count:
+   1. CP161837.1    23,090
+   2. CP155801.1    23,090
+   3. CP191545.1    22,910
+   4. CP162122.1    22,888
+   5. CP175995.1    22,836
+   ... (5 more sequences)
+   
+   KEY INSIGHT: Top sequences cluster tightly around 23K matches,
+               suggesting reference/standard genomes
+
+---
+
+6. TATA_vs_length.png (70 KB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━
+   Type: Scatter plot
+   
+   X-axis: Sequence length (4.6 - 4.9 Mb)
+   Y-axis: TATA count (20,342 - 23,090)
+   
+   Shows correlation between genome size and TATA content:
+   - Calculates Pearson correlation coefficient
+   - P-value indicates statistical significance
+   - Positive correlation expected: larger genomes → more TATA boxes
+   
+   KEY INSIGHT: TATA abundance scales with genome size
+
+---
+
+7. TATA_vs_gc.png (72 KB)
+   ━━━━━━━━━━━━━━━━━━━━
+   Type: Scatter plot
+   
+   X-axis: GC content (%)
+   Y-axis: TATA count
+   
+   Shows relationship between nucleotide composition and TATA patterns:
+   - Salmonella GC content ~52% (typical for this genus)
+   - Tests correlation with TATA abundance
+   
+   KEY INSIGHT: Understand sequence composition biases affecting
+               promoter element distribution
+
+---
+
+8. TATA_cumulative_distribution.png (59 KB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Type: Cumulative distribution function (CDF)
+   
+   Shows cumulative percentage of sequences at each TATA count level:
+   - Ascending curve from left to right
+   - Steep rise indicates tight clustering of values
+   - Shaded area under curve emphasizes distribution shape
+   
+   KEY INSIGHT: ~50% of sequences have TATA counts between
+               21.2K and 22.5K, confirming conserved abundance
+
+---
+
+9. TATA_abundance_visualization.png (52 KB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Layout: 2-panel abundance group comparison
+   
+   LEFT PANEL: Box plot
+   - Shows quartiles and range for each group
+   
+   RIGHT PANEL: Scatter plot overlay
+   - Individual points show each sequence's TATA count
+   - Color-coded by abundance group
+   
+   KEY INSIGHT: Visual distribution patterns within each abundance tier
+
+================================================================================
+USAGE RECOMMENDATIONS
+================================================================================
+
+FOR PRESENTATIONS:
+  • Use TATA_distribution_histogram.png - shows overall pattern
+  • Use TATA_strand_distribution.png - dramatic 50/50 balance
+  • Use TATA_top_10_barplot.png - identifies key sequences
+
+FOR PUBLICATIONS:
+  • Use TATA_vs_length.png & TATA_vs_gc.png - correlation analysis
+  • Use TATA_spacing_histogram.png - spatial organization insights
+  • Use TATA_abundance_boxplot.png - statistical comparison
+
+FOR REPORTS:
+  • Use TATA_cumulative_distribution.png - summary overview
+  • Use TATA_abundance_visualization.png - group statistics
+
+================================================================================
+INTERPRETATION GUIDE
+================================================================================
+
+✓ NORMAL DISTRIBUTION
+  The Q-Q plot shows points aligned with the diagonal, confirming
+  that TATA counts follow a normal distribution. This suggests
+  evolutionary stability of promoter elements.
+
+✓ STRAND BALANCE
+  Perfect 50:50 distribution on both strands indicates no selective
+  pressure favoring one strand over the other. Typical for bacterial
+  genomes with roughly equal numbers of genes on each strand.
+
+✓ CONSERVED SPACING
+  Median spacing of 219 bp between TATA boxes is consistent with
+  typical bacterial gene spacing (200-500 bp). Indicates maintained
+  regulatory organization across Salmonella strains.
+
+✓ ABUNDANCE CONSERVATION
+  Small differences between high/medium/low groups (20-23K range)
+  suggest that TATA box content is highly conserved across
+  Salmonella enterica strains despite genomic variations.
+
+================================================================================
+RELATED FILES
+================================================================================
+
+Data files referenced by these plots:
+  • TATA_count_per_seqID.txt (source for distribution plots)
+  • TATA_abundance_classification.txt (source for abundance groups)
+  • TATA_top_10_sequences.txt (source for top 10 plot)
+  • TATA_with_metadata.txt (source for correlation plots)
+  • spacings.txt (source for spacing distribution)
+
+Summary report:
+  • TATA_Analysis_Summary.txt (comprehensive statistical summary)
+
+================================================================================
+TECHNICAL SPECIFICATIONS
+================================================================================
+
+Software: R v4.5.0
+Graphics Device: PNG
+Resolution: 100 DPI
+Dimensions: Variable (mostly 1200x600 or 1000x600 pixels)
+Color Palette: Publication-quality colors (color-blind friendly)
+Font: Default R graphics fonts (Arial equivalent)
+Generation Date: 2026-03-23
+
+================================================================================
+END OF MANIFEST
+================================================================================

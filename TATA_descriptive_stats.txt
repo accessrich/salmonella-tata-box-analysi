@@ -1,0 +1,7 @@
+Statistic	Value
+Total_Matches	2177798
+Unique_Sequences	100
+Mean_Matches_Per_Sequence	21777.98
+Median_Matches_Per_Sequence	21896
+Min	20342
+Max	23090

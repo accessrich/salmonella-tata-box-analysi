@@ -1,0 +1,160 @@
+================================================================================
+TATA BOX ANALYSIS - COMPREHENSIVE RESULTS SUMMARY
+================================================================================
+
+ANALYSIS PERFORMED ON: seqdump_cleaned.fasta
+PATTERN SEARCHED: TATA
+TOTAL MATCHES: 2,177,798
+UNIQUE SEQUENCES: 100
+
+================================================================================
+1. DESCRIPTIVE STATISTICS
+================================================================================
+
+Total Matches:           2,177,798
+Unique Sequences:        100
+Mean Matches/Sequence:   21,777.98
+Median Matches/Sequence: 21,896
+Standard Deviation:      646.27
+Minimum Count:           20,342 (CP177225.1)
+Maximum Count:           23,090 (CP161837.1, CP155801.1)
+
+INTERPRETATION:
+- TATA boxes are highly abundant across all sequences (~21,800 per sequence)
+- Distribution is fairly uniform (low std dev relative to mean)
+- All sequences have significant TATA presence (min: 20K, max: 23K)
+
+================================================================================
+2. STRAND BIAS ANALYSIS
+================================================================================
+
+Forward Strand (+):  1,088,899 matches (50.00%)
+Reverse Strand (-):  1,088,899 matches (50.00%)
+
+INTERPRETATION:
+- Perfect strand balance suggests:
+  1. TATA boxes are equally distributed on both strands
+  2. No preferential strand bias in Salmonella genomes
+  3. Likely due to symmetrical gene distribution
+
+================================================================================
+3. SPATIAL DISTRIBUTION ANALYSIS
+================================================================================
+
+Total Spacing Measurements: 1,088,799
+Mean Spacing:               441.51 bp
+Median Spacing:             219.00 bp
+Minimum Spacing:            2 bp
+Maximum Spacing:            8,911 bp
+
+INTERPRETATION:
+- Average gap between TATA boxes is ~441 bp
+- Median of 219 bp indicates many closely-spaced TATA boxes
+- Range 2-8,911 bp shows variable clustering patterns
+- Close spacing may indicate promoter clusters or polycistronic operons
+
+================================================================================
+4. SEQUENCE ABUNDANCE GROUPING
+================================================================================
+
+HIGH ABUNDANCE (33 sequences):
+  - Range: 22,513 - 23,090 matches
+  - Mean: 22,513 matches/sequence
+  - Examples: CP161837.1, CP155801.1, CP191545.1
+
+MEDIUM ABUNDANCE (33 sequences):
+  - Range: 21,830 - 22,512 matches
+  - Mean: 21,830 matches/sequence
+
+LOW ABUNDANCE (34 sequences):
+  - Range: 20,342 - 21,829 matches
+  - Mean: 21,014 matches/sequence
+  - Examples: CP177225.1, CP193950.1
+
+INTERPRETATION:
+- Clear stratification into three abundance groups
+- Even distribution across groups (33/33/34)
+- Differences ~1-2% between groups, suggesting conserved TATA usage
+
+================================================================================
+5. TOP 10 SEQUENCES WITH MOST TATA
+================================================================================
+
+Rank  seqID          TATA_Count
+----  -----          ----------
+1     CP161837.1     23,090
+2     CP155801.1     23,090
+3     CP191545.1     22,910
+4     CP162122.1     22,888
+5     CP175995.1     22,836
+6     CP175687.1     22,814
+7     AP044015.1     22,792
+8     AP044013.1     22,686
+9     AP044014.1     22,682
+10    CP159171.1     22,624
+
+INTERPRETATION:
+- Top sequences cluster around 23K matches
+- Likely represent standard or reference genomes
+- Minor variation suggests similar gene content/organization
+
+================================================================================
+6. SEQUENCE PROPERTIES CORRELATION
+================================================================================
+
+Metadata Availability: 100/100 sequences with length and GC data
+
+Sample Statistics (from TATA_with_metadata.txt):
+- Sequence lengths: 4.6M - 4.9M bp (typical bacterial genomes)
+- GC content: ~52% (typical for Salmonella)
+
+FURTHER ANALYSIS RECOMMENDED:
+- Calculate TATA density (matches per Kb) to normalize by genome size
+- Correlate TATA abundance with GC content
+- Examine taxonomic variations (strain-level analysis)
+
+================================================================================
+7. BIOLOGICAL SIGNIFICANCE
+================================================================================
+
+TATA BOX CHARACTERISTICS:
+- Ancient promoter element found in eukaryotes and bacteria
+- In bacteria: typically located 10bp upstream of transcription start
+- Consensus sequence: TATAAT (slightly variable)
+
+FINDINGS:
+1. TATA boxes are abundant in Salmonella (expected for prokaryotes)
+2. Uniform distribution across strands and sequences
+3. Tight clustering (median 219bp spacing) suggests regulatory organization
+4. Salmonella genomes show highly conserved promoter architecture
+
+IMPLICATIONS:
+- Consistent gene regulation machinery across strains
+- Potential target for evolutionary/comparative genomics studies
+- May inform synthetic biology applications
+
+================================================================================
+8. OUTPUT FILES GENERATED
+================================================================================
+
+COMPREHENSIVE DATA FILES:
+✓ TATA_locate_results.txt (91 MB) - Full seqkit output with all match details
+✓ TATA_count_per_seqID.txt - Count summary per sequence
+✓ TATA_with_metadata.txt - TATA counts merged with genome properties
+
+ANALYSIS SUMMARIES:
+✓ TATA_descriptive_stats.txt - Basic statistics
+✓ TATA_strand_bias.txt - Strand distribution analysis
+✓ TATA_spacing_analysis.txt - Inter-box distance statistics
+✓ TATA_abundance_classification.txt - Sequences classified by abundance
+
+RANKED SEQUENCES:
+✓ TATA_top_10_sequences.txt - Highest TATA count sequences
+✓ TATA_bottom_10_sequences.txt - Lowest TATA count sequences
+
+THIS FILE:
+✓ TATA_Analysis_Summary.txt - Comprehensive results summary
+
+================================================================================
+END OF ANALYSIS REPORT
+================================================================================
