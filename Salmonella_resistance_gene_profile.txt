@@ -1,0 +1,1 @@
+seqID	Number_of_Resistance_Genes	Genes_Found	Gene_Counts

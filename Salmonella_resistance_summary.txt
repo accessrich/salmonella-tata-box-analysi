@@ -1,0 +1,19 @@
+SALMONELLA ANTIBIOTIC RESISTANCE GENE ANALYSIS SUMMARY
+======================================================================
+
+SEARCH PARAMETERS:
+  Total genes searched: 12
+  Sequences analyzed: 0
+  Genes found: 0
+
+GENE FREQUENCY:
+----------------------------------------------------------------------
+Gene		Sequences_With_Gene	Total_Matches	Percentage
+
+RESISTANCE PROFILES:
+----------------------------------------------------------------------
+Sequences with NO resistance genes: 0
+Sequences with 1 resistance gene: 0
+Sequences with 2+ resistance genes: 0
+Sequences with 3+ resistance genes: 0
+Sequences with 4+ resistance genes: 0
