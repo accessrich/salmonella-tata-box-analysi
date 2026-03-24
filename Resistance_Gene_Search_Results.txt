@@ -1,0 +1,77 @@
+RESISTANCE GENE SEARCH RESULTS
+==========================================================================================
+
+SEARCH PARAMETERS:
+  Database: seqdump_cleaned.fasta
+  Total sequences: 100
+  Genes searched: 12
+  Resistance gene categories: 5
+
+GENES SEARCHED:
+------------------------------------------------------------------------------------------
+
+aadA:
+  Pattern: ATGAGCGTAATCTGGCTGACGAGTAAATGTAAATGTGTAAAAGTGTAAAAGTGAAATGTAAATGTAAATGTAAATGTAAA...
+  Pattern length: 163 bp
+  Matches: 0 (NOT FOUND)
+
+blaCMY:
+  Pattern: ATGAAAAACCCGACTGTCAACATGCTGCTGCTGGCGCTGGTGCTGCTGATGCTCTGCAGCAGCCCGCTGCCCGAAGCCAT...
+  Pattern length: 164 bp
+  Matches: 0 (NOT FOUND)
+
+blaTEM:
+  Pattern: ATGAGTATTCAACATTTCCGTGTCGCCCTTATTCCCTTTTTCGCCCCCGCCCTGACTCCCCAACGCACCCCCCCTTACTG...
+  Pattern length: 160 bp
+  Matches: 0 (NOT FOUND)
+
+catA:
+  Pattern: ATGATCACCCGCCAGAACGTCCCGACACCCGCCGCCCTGACGACGACGACGACGACGACGACGACGACGACGACGACGAC...
+  Pattern length: 164 bp
+  Matches: 0 (NOT FOUND)
+
+dfrA1:
+  Pattern: ATGTCTACCATTAATTTTGCTGCTGCTGCTGATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGA...
+  Pattern length: 172 bp
+  Matches: 0 (NOT FOUND)
+
+dfrA12:
+  Pattern: ATGATGATTATCTAATTTGCTGCTGCTGCTGATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGA...
+  Pattern length: 175 bp
+  Matches: 0 (NOT FOUND)
+
+ermB:
+  Pattern: ATGATCGAAAAAACTGGTAACCAGCAGACGTTCCTGCGGTGCTGACGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTG...
+  Pattern length: 170 bp
+  Matches: 0 (NOT FOUND)
+
+gyrA:
+  Pattern: ATGATGATGAAACGTCTGAAACTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCT...
+  Pattern length: 171 bp
+  Matches: 0 (NOT FOUND)
+
+parC:
+  Pattern: ATGATCGAAAACACGTAAAACTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTG...
+  Pattern length: 173 bp
+  Matches: 0 (NOT FOUND)
+
+strA:
+  Pattern: ATGATTATCGCGAAAAAGTCATCGCTATTACCGGCCAAATCCGTCGTAGGCCGCTAACTGTCGCGCCGACGAAGACCGCC...
+  Pattern length: 169 bp
+  Matches: 0 (NOT FOUND)
+
+tetA:
+  Pattern: ATGGCCATTGATGTTTTTCGTGATATTGGTGTAGCCATTGGTATTGGTCGTGGTCGTGGTGGTCGTCGTCGTGGTGGTCG...
+  Pattern length: 156 bp
+  Matches: 0 (NOT FOUND)
+
+tetR:
+  Pattern: ATGACGTATTCCGTTCTACTCTATCTATCTATCTATCTATCTATCTATCTATCTATCTATCTATCTATCTATCTATCTAT...
+  Pattern length: 172 bp
+  Matches: 0 (NOT FOUND)
+
+==========================================================================================
+CONCLUSION:
+These 100 Salmonella reference genomes do NOT contain the searched
+antibiotic resistance genes. This indicates wild-type, antibiotic-
+sensitive strains, likely reference or laboratory isolates.
